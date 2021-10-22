@@ -1,0 +1,148 @@
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Poppins', sans-serif;
+            }
+            
+            .container {
+                display: grid;
+                height: 100vh;
+                grid-template-columns: 0.7fr 1.7fr 1fr;
+                grid-template-rows: 0.2fr 1.5fr 1.7fr;
+                grid-template-areas: "nav main text" "nav main text" "nav items items";
+                grid-gap: 0.2rem;
+            }
+            
+            nav {
+                background: white);
+                grid-area: nav;
+            }
+            
+            main {
+                background: white;
+                grid-area: main;
+            }
+            
+            .row {
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                margin-bottom: 40px;
+                margin-top: 20px;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                justify-items: center;
+                display: flex;
+            }
+            
+            #text {
+                background: white;
+                grid-area: text;
+            }
+            
+            .logo {
+                text-align: center;
+            }
+            
+            #logoname {
+                font-style: italic;
+                font-size: 60px;
+                padding-top: 30px;
+                padding-bottom: 60px;
+            }
+            
+            .logo a {
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+                letter-spacing: 2px;
+                display: list-item;
+                padding: 20px;
+            }
+            
+            #btn {
+                outline: none;
+                border: 0;
+                font-size: 16px;
+                line-height: 1;
+                padding: 16px 30px;
+                border-radius: 30px;
+                background-color: orangered;
+                color: white;
+                cursor: pointer;
+                transition: all 0.3s linear;
+            }
+            
+            #btn:hover,
+            .btn:focus {
+                background: darkred;
+            }
+            
+            .logo a:hover {
+                background-color: red;
+            }
+            
+            #text {
+                padding-top: 150px;
+                padding-left: 40px;
+                padding-right: 90px;
+                font-size: 18px;
+                font-style: italic;
+                color: rgb(78, 69, 69);
+            }
+            
+            #main {
+                text-align: center;
+                padding-top: 80px;
+                font-size: 40px;
+                padding-left: 0px;
+                padding-right: 10px;
+                font-style: normal;
+            }
+            
+            .profile-card {
+                background-color: rgb(253, 246, 246);
+                width: 200px;
+                height: 250px;
+                margin: 20px 10px 10px 10px;
+                padding-bottom: ;
+                border-radius: 30px;
+                opacity: 2;
+            }
+            
+            .profile-content {
+                padding: 15px;
+            }
+            
+            img {
+                width: 130px;
+                height: 130px;
+                border-radius: 70px;
+            }
+            
+            .profile-image {
+                text-align: center;
+            }
+            
+            .desc {
+                text-align: center
+            }
+            
+            .desc h2 {
+                padding-top: 30px;
+                color: black;
+                font-size: 20px;
+            }
+            
+            .items {
+                background: white;
+                grid-area: items;
+            }
+            
+            .hh {}
